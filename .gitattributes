@@ -1,0 +1,4 @@
+# Al hacer commit, los notebooks pasan por un filtro que borra los
+# outputs guardados (celdas con datos reales) antes de que git los
+# grabe. El archivo local en disco NO se modifica.
+notebooks/*.ipynb filter=stripoutputs

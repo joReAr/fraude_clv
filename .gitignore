@@ -1,0 +1,28 @@
+# Lista blanca: se ignora todo por defecto y solo se permite
+# explícitamente lo que sí va al repo. Cualquier carpeta o archivo
+# nuevo que se cree en el proyecto queda ignorado hasta que se
+# agregue aquí a propósito.
+
+*
+
+# Archivos de nivel raíz permitidos
+!.gitignore
+!.gitattributes
+!README.md
+
+# Carpeta de notebooks: permitir la carpeta, luego solo estos archivos
+!notebooks/
+notebooks/*
+!notebooks/EDA.ipynb
+!notebooks/descargar.ipynb
+!notebooks/exploracion.ipynb
+!notebooks/01_eda_fuga.ipynb
+
+# Carpeta de notas: permitir la carpeta, luego solo teoría pura
+!notas/
+notas/*
+!notas/BG-NBD y Pareto-NBD.md
+!notas/Ejemplos y ejercicios.md
+!notas/Estimación Puntual - Momentos y Máxima Verosimilitud.md
+!notas/NBD - Poisson, Gamma y Binomial Negativa.md
+!notas/Teoría Distribuciones Base.md
