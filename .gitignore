@@ -9,6 +9,7 @@
 !.gitignore
 !.gitattributes
 !README.md
+!git_clean_notebook.py
 
 # Carpeta de notebooks: permitir la carpeta, luego solo estos archivos
 !notebooks/
